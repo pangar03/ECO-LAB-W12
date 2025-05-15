@@ -1,0 +1,79 @@
+
+// LOGIN TO UPDATE THE CURRENT USER
+POST http://localhost:5050/login
+Content-Type: application/json
+
+{
+    "email": "cam@b.com"
+}
+
+###
+POST http://localhost:5050/login
+Content-Type: application/json
+
+{
+    "email": "seb@b.com"
+}
+
+###
+
+// LAB 1 - Point 1
+GET http://localhost:5050/products
+
+###
+
+// LAB 1 - Point 2
+GET http://localhost:5050/productsPrice
+
+### 
+
+// LAB 1 - Point 3
+GET http://localhost:5050/users
+
+###
+
+// LAB 1 - Point 4
+GET http://localhost:5050/orders
+
+###
+
+// LAB 2 - Point 1
+POST http://localhost:5050/productsCategory
+Content-Type: application/json
+
+{
+    "category": "Electronics"
+}
+
+###
+
+// LAB 2 - Point 2
+GET http://localhost:5050/posts
+
+###
+
+// LAB 2 - Point 3
+POST http://localhost:5050/productsLimit
+Content-Type: application/json
+
+{
+    "rangeStart": 0,
+    "rangeEnd": 9
+}
+
+###
+
+POST http://localhost:5050/productsLimit
+Content-Type: application/json
+
+{
+    "rangeStart": 10,
+    "rangeEnd": 19
+}
+
+###
+
+// LAB 2 - Point 4
+GET http://localhost:5050/productsUser
+
+###
